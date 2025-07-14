@@ -10,7 +10,7 @@ import java.util.*;
 		System.out.println("Enter 2nd number");
 		float b = sc.nextFloat();
 		System.out.println("Enter the operator(+,-,/,*)");				
-		 char op = sc.next().charAt(0);
+		char op = sc.next().charAt(0);
 		
 		float result;
 
