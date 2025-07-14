@@ -6,9 +6,11 @@ import javax.management.OperationsException;
        // and performs addition, subtraction, multiplication, division, and modulus operations.
 
 
-public class arithmaticOperators{
+public class arithmaticOperators
+{
 
-    public void Operations(float num1,float num2){
+    public void Operations(float num1,float num2)
+    {
 
         //performing the operations on the numbers
 
@@ -25,7 +27,8 @@ public class arithmaticOperators{
     }
     
 
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         System.out.println("**************************************************************");  
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number 1: ");
