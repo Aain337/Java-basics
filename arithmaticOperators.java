@@ -6,11 +6,9 @@ import javax.management.OperationsException;
        // and performs addition, subtraction, multiplication, division, and modulus operations.
 
 
-public class arithmaticOperators
-{
+public class arithmaticOperators{
 
-    public void Operations(float num1,float num2)
-    {
+    public void Operations(float num1,float num2){
 
         //performing the operations on the numbers
 
