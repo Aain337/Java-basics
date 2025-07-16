@@ -1,6 +1,5 @@
 import java.util.*;
 
-import javax.management.OperationsException;
 
        // a Java program that takes two numbers from the user 
        // and performs addition, subtraction, multiplication, division, and modulus operations.
