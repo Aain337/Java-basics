@@ -29,7 +29,9 @@ import java.util.*;
       System.out.println("Welcome to ATM service \n please select the option ");
       While(True){
          System.out.println("1.Check Balance");
-         System.out.println("2.Widthdraw money");
+         System.out.println("2.Widthdraw Money");
+         System.out.println("3.Transfer Money");
+         System.out.println("Deposit Money");
       }
     }
     public static void main(String[] args){
