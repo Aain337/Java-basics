@@ -31,11 +31,24 @@ import java.util.*;
    public void Atm(){
       Scanner sc = new Scanner(System.in);
       System.out.println("Welcome to ATM service \n please select the option ");
+      float Balance = 1000;
     //   while(true){
-    //     System.out.println("1.Check Balance");
-    //     System.out.println("2.Widthdraw Money");
-    //     System.out.println("3.Transfer Money");
-     //    System.out.println("Deposit Money");
+    //     System.out.println("1. Check Balance");
+    //     System.out.println("2. Widthdraw Money");
+    //     System.out.println("3. Transfer Money");
+     //    System.out.println("4. Deposit Money");
+           int input = sc.nextInt();
+           switch(input)
+           {
+            case 1 :
+            {
+               System.out.println("Your current balance is:" + Balance);
+            }
+            case 2 :
+            {
+               System.out.println("Select the amount: ");
+            }
+           }
       //}
     }
     //************************* main method **************************
