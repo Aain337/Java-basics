@@ -28,7 +28,8 @@ import java.util.*;
       }
    }
    //******************************* Atm method ***********************
-   public void Atm(){
+   public void Atm()
+   {
       Scanner sc = new Scanner(System.in);
       System.out.println("Welcome to ATM service \n please select the option ");
       float Balance = 1000;
@@ -40,17 +41,24 @@ import java.util.*;
            int input = sc.nextInt();
            switch(input)
            {
-            case 1 :
-            {
-               System.out.println("Your current balance is:" + Balance);
+               case 1 :
+               {
+                  System.out.println("Your current balance is: " + Balance);
+               }
+               case 2 :
+               {
+                  System.out.println("Select the amount: ");
+               }
+               case 3 :
+               {
+                  System.out.println("Select the amount: ");
+               }
+               case 4 :
+               {
+                  System.out.println("Deposit the amount you want: ");
+               }
             }
-            case 2 :
-            {
-               System.out.println("Select the amount: ");
-            }
-           }
-      //}
-    }
+   }
     //************************* main method **************************
    public static void main(String[] args){
       ATM obj = new ATM();
