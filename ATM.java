@@ -2,7 +2,8 @@ import java.util.*;
  public class ATM{
 
    //*********************** Card method *****************************
-   public void Card(int card){
+   public void Card(int card)
+   {
       Scanner sc = new Scanner(System.in);
       int CARD = 12345;
         if(card==CARD){
@@ -13,8 +14,10 @@ import java.util.*;
            //System.out.println(Card()); 
         }
    }
+
    //*************************** Pin method **************************
-   public void Pin(){
+   public void Pin()
+   {
       Scanner sc = new Scanner(System.in);
       int PIN = 4567;
       System.out.println("Please enter the PIN ");
@@ -27,6 +30,7 @@ import java.util.*;
          Pin();
       }
    }
+
    //******************************* Atm method ***********************
    public void Atm()
    {
@@ -43,22 +47,36 @@ import java.util.*;
            {
                case 1 :
                {
-                  System.out.println("Your current balance is: " + Balance);
+                     System.out.println("Your current balance is: " + Balance);
+                     break;
                }
                case 2 :
                {
-                  System.out.println("Select the amount: ");
+                     System.out.println("Select the amount: ");
+                     float amount = sc.nextFloat();
+                     Balance = Balance-amount;
+                     System.out.println("Your current Balance is :" + Balance);
+                     break;
                }
                case 3 :
                {
-                  System.out.println("Select the amount: ");
+                     System.out.println("Select the amount: ");
+                     float transfer = sc.nextFloat;
+                     System.out.println("Enter the number, you want to transfer : ");
+                     int receiver = sc.nextInt;
+                     Balance = Balance - transfer;
+                     System.out.println("The amount " + transfer + " is tranfered to " + receiver);
+                     System.out.println("Your remaining Balance is: " + Balance);
+                     break;
                }
                case 4 :
                {
-                  System.out.println("Deposit the amount you want: ");
+                     System.out.println("Deposit the amount you want: ");
+                     break;
                }
             }
    }
+
     //************************* main method **************************
    public static void main(String[] args){
       ATM obj = new ATM();
