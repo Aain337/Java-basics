@@ -49,11 +49,13 @@ import java.util.*;
             {
                   case 1 :
                   {
+                     //check balance
                         System.out.println("Your current balance is: " + Balance);
                         break;
                   }
                   case 2 :
                   {
+                     // withdraw money
                         System.out.println("Select the amount to withdraw: ");
                         float amount = sc.nextFloat();
                         if(amount > Balance)
@@ -71,6 +73,7 @@ import java.util.*;
                   }
                   case 3 :
                   {
+                     // traansfer money
                         System.out.println("Select the amount to transfer: ");
                         float transfer = sc.nextFloat();
                          if(transfer > Balance)
@@ -90,6 +93,7 @@ import java.util.*;
                   }
                   case 4 :
                   {
+                     // deposit money
                         System.out.println("Deposit the amount you want: ");
                         float deposit = sc.nextFloat();
                         Balance = Balance + deposit;
@@ -98,6 +102,7 @@ import java.util.*;
                   }
                   case 5 :
                   {
+                     //exit
                      System.out.println("Thankyou for availing our services.");
                      System.out.println("Please take your card.");
                      return;
