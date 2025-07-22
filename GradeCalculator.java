@@ -16,7 +16,7 @@ public class GradeCalculator{
             total += total;
             obtain += obtain;           
         }
-        float percen = (obtain/total)*100
+        float percen = (obtain/total)*100;
         System.out.println("Total marks are "+total);
         System.out.println("obtained marks are "+obtain);
         System.out.println("Percentage = "+percen);
