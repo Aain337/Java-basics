@@ -6,19 +6,22 @@ public class GradeCalculator{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter no.of subjects ");
         int subj = sc.nextInt();
-        float total;
-        float obtain;
+        float total = 0;
+        float obtain = 0;
         for(int i = 1; i<=subj; i++){
-            System.out.println("Enter the subject total marks ");
-            total = sc.nextFloat();
-            System.out.println("Enter the obtained marks ");
-            obtain = sc.nextFloat();
-            total += total;
-            obtain += obtain;           
+
+            System.out.println("Enter the subject numbers ");
+            float subjno = sc.nextFloat();
+
+            System.out.println("Enter the obtained numbers ");
+            float obtno = sc.nextFloat();
+
+            total += subjno;
+            obtain += obtno;           
         }
+        System.out.println("Total marks are " + total);
+        System.out.println("obtained marks are " + obtain);
         float percen = (obtain/total)*100;
-        System.out.println("Total marks are "+total);
-        System.out.println("obtained marks are "+obtain);
-        System.out.println("Percentage = "+percen);
+        System.out.println("Percentage = " + percen);
     }
 }
