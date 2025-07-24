@@ -1,5 +1,6 @@
 import java.util.*;
- public class ATM{
+ public class ATM
+ {
 
    //*********************** Card method *****************************
    public void Card(int card)
